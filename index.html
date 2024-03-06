@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Universe Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main class="container mx-auto">
+        <section class="">
+            <h1 class="text-center font-semibold my-10 text-5xl">
+                AI Universe Hub
+            </h1>
+            <div class="text-center mb-3">
+                <button class="text-white p-3 rounded-lg font-semibold text-xl bg-[#EB5757] px-4">
+                    Sort By Date
+                </button>
+            </div>
+
+            <!-- card container -->
+            <div id="all-Tools" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+            </div>
+            
+            <!-- See More button -->
+            <div class="text-center mt-5">
+                <button onclick="showAllData()" class="text-white p-3 rounded-lg font-semibold text-xl bg-[#EB5757] px-4">
+                    See More
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
